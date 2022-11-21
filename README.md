@@ -7,6 +7,7 @@ The experiment data is structured in single xlsx file with 6 sheets.
 Details about each instance
 
 **fields**
+
 EXP_ID - experiment ID
 PARTICIPANT_ID - participant ID
 CURTIME - When the experiment started
@@ -34,6 +35,7 @@ Similar to Experiments, showing only "valid" experiments, i.e. removing experime
 List of participants and their demographic information.
 
 **fields**
+
 PARTICIPANT_ID - participant ID
 AGE - age
 EDUCATION - level of education
@@ -43,6 +45,7 @@ GENDER - gender
 The vote for each experiment
 
 **fields**
+
 EXP_ID - experiment ID
 ITEM_ID - project ID (corresponds to items sheet)
 VALUE - 0/1 for approval, 0-100 for points, rank location for ranking
@@ -53,6 +56,7 @@ RANK_AFTER(for rankings only) -  rank of the project after the user changed it
 List of possible projects
 
 **fields**
+
 ITEM_ID - item ID
 ITEM_NAME - name of the project
 VALUE - cost of the project
@@ -64,6 +68,7 @@ SINGULAR - multiple location or one
 List of possible elections (in the experiment 3,6,7 and 8 were used)
 
 **fields**
+
 Election - election ID
 ITEM_ID - project ID (corresponds to items sheet)
 COORDS - coordinates of the project on the map
