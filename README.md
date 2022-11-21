@@ -3,10 +3,10 @@
 ## Data description
 The experiment data is structured in single xlsx file with 6 sheets.
 
-Experiments: 
+### Experiments: 
 Details about each instance
 
-fields
+**fields**
 EXP_ID - experiment ID
 PARTICIPANT_ID - participant ID
 CURTIME - When the experiment started
@@ -27,32 +27,32 @@ TOTAL_TIME - how long the entire experiment took (seconds)
 TOKEN - token given to the user when finishing the experiment
 LOCATION_MAP - the coordinates of the user on the map
 
-Valid_experiments:
+### Valid_experiments:
 Similar to Experiments, showing only "valid" experiments, i.e. removing experiments from tests and such.
 
-Participants:
+### Participants:
 List of participants and their demographic information.
 
-fields
+**fields**
 PARTICIPANT_ID - participant ID
 AGE - age
 EDUCATION - level of education
 GENDER - gender
 
-Experiment items:
+### Experiment items:
 The vote for each experiment
 
-fields
+**fields**
 EXP_ID - experiment ID
 ITEM_ID - project ID (corresponds to items sheet)
 VALUE - 0/1 for approval, 0-100 for points, rank location for ranking
 RANK_BEFORE (for rankings only) -  rank of the project as shown to the user
 RANK_AFTER(for rankings only) -  rank of the project after the user changed it
 
-Items
+### Items
 List of possible projects
 
-fields
+**fields**
 ITEM_ID - item ID
 ITEM_NAME - name of the project
 VALUE - cost of the project
@@ -60,10 +60,10 @@ DESCRIPTION - description of the project
 GROUP_NAME - type of project (5 types)
 SINGULAR - multiple location or one
 
-Elections:
+### Elections:
 List of possible elections (in the experiment 3,6,7 and 8 were used)
 
-fields
+**fields**
 Election - election ID
 ITEM_ID - project ID (corresponds to items sheet)
 COORDS - coordinates of the project on the map
