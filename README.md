@@ -1,4 +1,4 @@
-# Participatory Budgeting Design for the RealWorld
+# Participatory Budgeting Design for the Real World
 
 ## Data description
 The experiment data is structured in single xlsx file with 6 sheets.
