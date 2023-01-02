@@ -118,7 +118,7 @@ If you find this code useful for your research, please use the following BibTeX 
 @inproceedings{fairstein2023participatory,
   title={Participatory Budgeting Design for the Real World},
   author={Fairstein, Roy and Benade, Gerdus and Gal, Kobi},
-  booktitle={Proceedings of the 37t AAAI Conference on Artificial Intelligence},
+  booktitle={Proceedings of the 37th AAAI Conference on Artificial Intelligence},
   year={2023}
 }
 ```
