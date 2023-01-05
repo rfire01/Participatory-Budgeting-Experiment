@@ -112,7 +112,7 @@ COORDS - coordinates of the project on the map
 
 ## Citation
 
-If you find this code useful for your research, please use the following BibTeX entry.
+If you are using data from this repository, we kindly ask you to cite the following article.
 
 ```bibtex
 @inproceedings{fairstein2023participatory,
